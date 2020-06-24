@@ -415,6 +415,10 @@ div.introduction > * {
 }
 
 @media (max-width: 700px) {
+  .main-nav {
+    width: 95%;
+    margin: auto;
+  }
   .showcase {
     flex-direction: column-reverse;
     /* Firefox */
@@ -425,12 +429,10 @@ div.introduction > * {
     height: -o-calc(100vh - 60px);
     /* Standard */
     height: calc(100vh - 60px);
-    width: 100vw;
-    margin-left: calc(-100vw / 2 + 95% / 2);
     margin-right: calc(-100vw / 2 + 96% / 2);
   }
   .container {
-    width: 95%;
+    width: 100%;
   }
 
   .menu,
@@ -463,9 +465,6 @@ div.introduction > * {
   .xbox {
     flex-direction: column-reverse;
     height: 80vh;
-    width: 100vw;
-    margin-left: calc(-100vw / 2 + 95% / 2);
-    margin-right: calc(-100vw / 2 + 96% / 2);
   }
   .content-img img {
     width: 90%;
