@@ -427,7 +427,7 @@ div.introduction > * {
     height: calc(100vh - 60px);
     width: 100vw;
     margin-left: calc(-100vw / 2 + 95% / 2);
-    margin-right: calc(-100vw / 2 + 95% / 2);
+    margin-right: calc(-100vw / 2 + 96% / 2);
   }
   .container {
     width: 95%;
@@ -465,7 +465,7 @@ div.introduction > * {
     height: 80vh;
     width: 100vw;
     margin-left: calc(-100vw / 2 + 95% / 2);
-    margin-right: calc(-100vw / 2 + 95% / 2);
+    margin-right: calc(-100vw / 2 + 96% / 2);
   }
   .content-img img {
     width: 90%;
