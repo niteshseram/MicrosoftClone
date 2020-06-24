@@ -34,7 +34,12 @@
       <!--Nav Bar-->
       <nav class="main-nav">
         <div class="menu-btn">
-          <i class="fa fa-bars fa-2x"></i>
+          <div class="hamburger">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+          <div class="active-btn">
+            <i class="fa fa-times fa-2x"></i>
+          </div>
         </div>
         <img src="./img/logo.png" alt="Microsoft" class="logo" />
         <ul class="main-menu">
@@ -333,6 +338,7 @@
     <script>
       document.querySelector(".menu-btn").addEventListener("click", () => {
         document.querySelector(".side-menu").classList.toggle("show");
+        document.querySelector(".menu-btn").classList.toggle("active");
       });
     </script>
   </body>

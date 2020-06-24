@@ -76,7 +76,7 @@ ul {
   margin-right: 5px;
 }
 
-.menu-btn {
+.hamburger {
   cursor: pointer;
   display: none;
 }
@@ -358,18 +358,24 @@ div.introduction > * {
   .menu-btn {
     display: block;
   }
+  .active-btn {
+    display: none;
+  }
 
   .menu-btn {
     flex: 1;
+  }
+  .hamburger {
+    display: inline;
   }
   .right-menu {
     flex: 1;
     justify-content: flex-end;
   }
 
-  .menu-btn:hover {
+  /* .hamburger:hover {
     opacity: 0.5;
-  }
+  } */
 
   .main-nav ul.main-menu {
     display: none;
@@ -411,6 +417,13 @@ div.introduction > * {
 
   .side-menu.show {
     transform: translateX(0%);
+  }
+
+  .menu-btn.active .hamburger {
+    display: none;
+  }
+  .menu-btn.active .active-btn {
+    display: block !important;
   }
 }
 
