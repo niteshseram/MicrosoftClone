@@ -76,7 +76,7 @@ ul {
   margin-right: 5px;
 }
 
-.hamburger {
+.menu-btn {
   cursor: pointer;
   display: none;
 }
@@ -332,7 +332,6 @@ div.introduction > * {
   margin-right: 30px;
   margin-bottom: 20px;
 }
-
 @media (max-width: 1024px) {
   .home-cards {
     grid-template-columns: repeat(2, 1fr);
@@ -386,15 +385,6 @@ div.introduction > * {
     left: 0;
     background: #f2f2f2;
     width: 100%;
-    /* Firefox */
-    min-height: -moz-calc(100% - 60px);
-    /* WebKit */
-    min-height: -webkit-calc(100% - 60px);
-    /* Opera */
-    min-height: -o-calc(100% - 60px);
-    /* Standard */
-    min-height: calc(100% - 60px);
-
     padding: 0px 20px;
     transform: translateX(-200%);
   }
